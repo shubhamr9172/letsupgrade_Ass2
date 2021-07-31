@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Assignment</title>
+    <a href="https://icons8.com/icon/LnlEQU5pxlIU/search"></a>
+    <style>
+        body{
+            background-color: #EBEBE8;
+        }
+        nav{
+            display: flex;
+            margin: 20px;
+            padding: 5px;
+            background-color: #59981A;
+            color: white;
+            border-radius: 1rem;
+            border: 1px solid black;
+            box-shadow: 5px 5px 10px grey;
+           
+        }
+        .searchbar{
+            padding: 1em;
+        }
+        .add-blog{
+            height: 3vh;
+            background-color: red;
+            color: white;
+            border: 0;
+            transition-duration: 0.4s;
+            
+        }
+        .add-blog:hover{
+            background-color: #59981A;
+            border: black;
+            color: white;
+        }
+        .Signin{
+            padding: 1em;
+            padding-top:1.2rem ;
+            
+        }
+        
+        .signin-button{
+            background-color: red;
+            color: white;
+            padding: 1px;
+            width: 60px;
+            border-style: none;
+            
+            transition-duration: 0.4s;
+            
+        }
+        .signin-button:hover{
+            background-color: white;
+            color: black;
+
+        }
+        .searchbutton{
+            padding: 1em;
+            padding-top:1.2rem ;
+            
+        }
+        .search-button{
+            background-color: red;
+            color: white;
+            padding: 1px;
+            width: 60px;
+            border-style: none;
+            transition-duration: 0.4s;
+            
+            
+            
+        }
+        .search-button:hover{
+            background-color: white;
+            color: black;
+
+        }
+        .search_icon{
+            position: absolute;
+            padding-top: 1rem;
+            width: 21px;
+           
+            
+            
+        }
+        .search-icon{
+            position: absolute;
+            padding-top: 0px;
+            padding-left: 16rem;
+        }
+        .blogs{
+            margin: 20px;
+            padding: 40px;
+            display: flex;
+            height: 100vh;
+            position: relative;
+            border: 1px solid black;
+            gap: 15px;
+            border-radius: 1rem;
+            
+        }
+        .blog1, .blog2, .blog3{
+            width:50vh;
+            height: 50vh;
+            position: relative;
+            border: 1px solid black;
+            border-radius: 1rem;
+            transition-duration: 0.4s;
+        }
+        .blog1:hover, .blog2:hover, .blog3:hover{
+            background-color: #59981A;
+            color: white;
+        }
+        .blog1-img, .blog2-img, .blog3-img{
+            width:45vh;
+            padding: 5px;
+        }
+        .blog-para{
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <nav>
+            <div class="heading">
+                <p>Everything is Here</p>
+            </div>
+
+            <div class="searchbar">
+
+                <input type="Search" placeholder="Search">
+                
+            </div>
+
+            <div class="search-icon">
+                <img class="search_icon"src="https://img.icons8.com/fluency-systems-regular/48/000000/search--v2.png"/>
+            </div>
+
+            <div class="searchbutton">
+                <button class="search-button">Search</button>
+            </div>
+            <div class="Signin">
+                <button class="signin-button">Signin</button>
+            </div>
+        </nav>
+
+        <section>
+            <main>
+                <div class="main">
+
+
+
+                    <div class="blogs">
+                        <button class="add-blog"> Create Blog</button>
+                        <div class="blog1">
+                            <img class="blog1-img" src="https://spin.atomicobject.com/wp-content/uploads/20171003153036/github-logo.png" alt="github">
+                            <p class="blog-para">GitHub is where over 65 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.</p>
+                        </div>
+                        <div class="blog2">
+                            <img class="blog2-img" src="https://spin.atomicobject.com/wp-content/uploads/20171003153036/github-logo.png" alt="">
+                            <p class="blog-para">GitHub is where over 65 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.</p>
+                      
+                        </div>
+                        <div class="blog3">
+                            <img class="blog3-img" src="https://spin.atomicobject.com/wp-content/uploads/20171003153036/github-logo.png" alt="">
+                            <p class="blog-para">GitHub is where over 65 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.</p>
+                      
+                        </div>
+                       
+                    </div>
+
+
+
+
+                </div>
+            </main>
+        </section>
+    </div>
+    
+</body>
+</html>
